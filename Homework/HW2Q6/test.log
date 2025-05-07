@@ -1,0 +1,147 @@
+./runTests.sh:Mon Apr  7 05:45:57 PM EDT 2025: Running  5,  server results output:serverResults.dat  and this script output file: test.log
+
+
+./runTests.sh:Mon Apr  7 05:45:57 PM EDT 2025:  TEST 1::  client localhost 6205 0.0 60000 100000 1 100000000000 
+
+client: opMode:1  outputFile NOT entered! 
+client: (NOT 0): sendRate:100000000000 messageSize:50028 iterationDelay:0.000004  
+client: server:localhost  service:6205 sendRate:100000000000 bps messageSize:50028 bytes iterationDelay:0.000004002240 secs  msgHeaderSize:14  
+client:   reqDelay:.tv_sec: 0 secs  tv_nsec:4002 nanosecs 
+127.0.0.1-6205
+
+client: found 1 addresses based on name localhost 
+findAF_INET6SocketAddress: Found 0 V6 addresses 
+Did not find any V6 addresses 
+findAF_INETSocketAddress: Found 1 V4 addresses 
+client: found 1 V4 addresses based on name localhost 
+127.0.0.1-6205
+
+client: SENDING the terminate signal to the server, reducedSizeMsg:16 with marker:102  
+client:  Now call CNTC Code to compute stats ... 
+wallTime duration avgRTT avgSendrate avgLossRate numberRTTSamples totalLost totalPacketsSent 
+1744062360.396892 0.401174 0.000000000  99763237290 0.0000 0 0 100000 
+0.0.0.0-6205
+
+::-6205
+
+getFirstV4IPAddress: IPV4 address: 127.0.0.1:47703 
+server: client TERMINATE signal (size:16) arrived from client:127.0.0.1 curSeqNumber:-1 lastSeqNumber:100000 opMode:1, Marker:0x0102 
+duration 	meanOWD 	minOWD     	maxOWD    	avgTh    	avgLR2    	avgGapSz    	avgLER    	numOfGps    	totLost2    	avgLR1    	totLost1    	rxCount 	numberNegativeOWDs  
+  0.40 		0.000010748 	-0.000020504 	0.003855705 	 41780327939 	0.582304 	14.388683 	0.040470 	     4047 	    58231 	0.582300 	    58230  	    41770 	    21644 
+ --->>  numberOfGaps:4047  gapArrayIndex:4047 
+
+./runTests.sh:Mon Apr  7 05:45:57 PM EDT 2025:  TEST 2:  client localhost 6205 0.0 60000 100000 1 50000000000 
+
+client: opMode:1  outputFile NOT entered! 
+client: (NOT 0): sendRate: 50000000000 messageSize:50028 iterationDelay:0.000008  
+client: server:localhost  service:6205 sendRate: 50000000000 bps messageSize:50028 bytes iterationDelay:0.000008004480 secs  msgHeaderSize:14  
+client:   reqDelay:.tv_sec: 0 secs  tv_nsec:8004 nanosecs 
+127.0.0.1-6205
+
+client: found 1 addresses based on name localhost 
+findAF_INET6SocketAddress: Found 0 V6 addresses 
+Did not find any V6 addresses 
+findAF_INETSocketAddress: Found 1 V4 addresses 
+client: found 1 V4 addresses based on name localhost 
+127.0.0.1-6205
+
+client: SENDING the terminate signal to the server, reducedSizeMsg:16 with marker:102  
+client:  Now call CNTC Code to compute stats ... 
+wallTime duration avgRTT avgSendrate avgLossRate numberRTTSamples totalLost totalPacketsSent 
+1744062363.207090 0.800754 0.000000000  49980918384 0.0000 0 0 100000 
+0.0.0.0-6205
+
+::-6205
+
+getFirstV4IPAddress: IPV4 address: 127.0.0.1:55186 
+server: client TERMINATE signal (size:16) arrived from client:127.0.0.1 curSeqNumber:-1 lastSeqNumber:99994 opMode:1, Marker:0x0102 
+duration 	meanOWD 	minOWD     	maxOWD    	avgTh    	avgLR2    	avgGapSz    	avgLER    	numOfGps    	totLost2    	avgLR1    	totLost1    	rxCount 	numberNegativeOWDs  
+  0.80 		0.000014478 	-0.000020266 	0.008275032 	 32516889291 	0.352128 	7.219807 	0.048772 	     4877 	    35211 	0.352121 	    35210  	    64784 	    27350 
+ --->>  numberOfGaps:4877  gapArrayIndex:4877 
+
+./runTests.sh:Mon Apr  7 05:45:57 PM EDT 2025:  TEST 3:  client localhost 6205 0.0 60000 100000 1 30000000000 
+
+client: opMode:1  outputFile NOT entered! 
+client: (NOT 0): sendRate: 30000000000 messageSize:50028 iterationDelay:0.000013  
+client: server:localhost  service:6205 sendRate: 30000000000 bps messageSize:50028 bytes iterationDelay:0.000013340800 secs  msgHeaderSize:14  
+client:   reqDelay:.tv_sec: 0 secs  tv_nsec:13340 nanosecs 
+127.0.0.1-6205
+
+client: found 1 addresses based on name localhost 
+findAF_INET6SocketAddress: Found 0 V6 addresses 
+Did not find any V6 addresses 
+findAF_INETSocketAddress: Found 1 V4 addresses 
+client: found 1 V4 addresses based on name localhost 
+127.0.0.1-6205
+
+client: SENDING the terminate signal to the server, reducedSizeMsg:16 with marker:102  
+client:  Now call CNTC Code to compute stats ... 
+wallTime duration avgRTT avgSendrate avgLossRate numberRTTSamples totalLost totalPacketsSent 
+1744062366.550165 1.334087 0.000000000  29999834228 0.0000 0 0 100000 
+0.0.0.0-6205
+
+::-6205
+
+getFirstV4IPAddress: IPV4 address: 127.0.0.1:58975 
+server: client TERMINATE signal (size:16) arrived from client:127.0.0.1 curSeqNumber:-1 lastSeqNumber:100000 opMode:1, Marker:0x0102 
+duration 	meanOWD 	minOWD     	maxOWD    	avgTh    	avgLR2    	avgGapSz    	avgLER    	numOfGps    	totLost2    	avgLR1    	totLost1    	rxCount 	numberNegativeOWDs  
+  1.33 		0.000008844 	-0.000020266 	0.003107309 	 25689627324 	0.145079 	4.792864 	0.030270 	     3027 	    14508 	0.145070 	    14507  	    85493 	    39407 
+ --->>  numberOfGaps:3027  gapArrayIndex:3027 
+
+./runTests.sh:Mon Apr  7 05:45:57 PM EDT 2025:  TEST 4::  client localhost 6205 0.0 60000 100000 1 20000000000 
+
+client: opMode:1  outputFile NOT entered! 
+client: (NOT 0): sendRate: 20000000000 messageSize:50028 iterationDelay:0.000020  
+client: server:localhost  service:6205 sendRate: 20000000000 bps messageSize:50028 bytes iterationDelay:0.000020011200 secs  msgHeaderSize:14  
+client:   reqDelay:.tv_sec: 0 secs  tv_nsec:20011 nanosecs 
+127.0.0.1-6205
+
+client: found 1 addresses based on name localhost 
+findAF_INET6SocketAddress: Found 0 V6 addresses 
+Did not find any V6 addresses 
+findAF_INETSocketAddress: Found 1 V4 addresses 
+client: found 1 V4 addresses based on name localhost 
+127.0.0.1-6205
+
+client: SENDING the terminate signal to the server, reducedSizeMsg:16 with marker:102  
+client:  Now call CNTC Code to compute stats ... 
+wallTime duration avgRTT avgSendrate avgLossRate numberRTTSamples totalLost totalPacketsSent 
+1744062370.559760 2.001153 0.000000000  19999672650 0.0000 0 0 100000 
+0.0.0.0-6205
+
+::-6205
+
+getFirstV4IPAddress: IPV4 address: 127.0.0.1:33622 
+server: client TERMINATE signal (size:16) arrived from client:127.0.0.1 curSeqNumber:-1 lastSeqNumber:100000 opMode:1, Marker:0x0102 
+duration 	meanOWD 	minOWD     	maxOWD    	avgTh    	avgLR2    	avgGapSz    	avgLER    	numOfGps    	totLost2    	avgLR1    	totLost1    	rxCount 	numberNegativeOWDs  
+  1.98 		0.000011999 	-0.000020027 	0.006700039 	 18207474513 	0.098459 	4.568910 	0.021550 	     2155 	     9846 	0.098450 	     9845  	    90155 	    38664 
+ --->>  numberOfGaps:2155  gapArrayIndex:2155 
+
+./runTests.sh:Mon Apr  7 05:45:57 PM EDT 2025:  TEST 5::  client localhost 6205 0.0 60000 100000 1 10000000000 
+
+client: opMode:1  outputFile NOT entered! 
+client: (NOT 0): sendRate: 12000000000 messageSize:50028 iterationDelay:0.000033  
+client: server:localhost  service:6205 sendRate: 12000000000 bps messageSize:50028 bytes iterationDelay:0.000033352000 secs  msgHeaderSize:14  
+client:   reqDelay:.tv_sec: 0 secs  tv_nsec:33352 nanosecs 
+127.0.0.1-6205
+
+client: found 1 addresses based on name localhost 
+findAF_INET6SocketAddress: Found 0 V6 addresses 
+Did not find any V6 addresses 
+findAF_INETSocketAddress: Found 1 V4 addresses 
+client: found 1 V4 addresses based on name localhost 
+127.0.0.1-6205
+
+client: SENDING the terminate signal to the server, reducedSizeMsg:16 with marker:102  
+client:  Now call CNTC Code to compute stats ... 
+wallTime duration avgRTT avgSendrate avgLossRate numberRTTSamples totalLost totalPacketsSent 
+1744062375.913152 3.335182 0.000000000  12000064081 0.0000 0 0 100000 
+0.0.0.0-6205
+
+::-6205
+
+getFirstV4IPAddress: IPV4 address: 127.0.0.1:43197 
+server: client TERMINATE signal (size:16) arrived from client:127.0.0.1 curSeqNumber:-1 lastSeqNumber:348 opMode:1, Marker:0x0102 
+duration 	meanOWD 	minOWD     	maxOWD    	avgTh    	avgLR2    	avgGapSz    	avgLER    	numOfGps    	totLost2    	avgLR1    	totLost1    	rxCount 	numberNegativeOWDs  
+  3.32 		1.111599620 	0.000762701 	3.323739529 	     1805568 	0.954155 	166.500000 	0.005731 	        2 	      333 	0.954023 	      332  	       16 	        0 
+ --->>  numberOfGaps:2  gapArrayIndex:2 
